@@ -14,7 +14,7 @@ import PaymentFailed from "./pages/PaymentFailed.jsx";
 import About from "./pages/About.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 
-export const ServerUrl = "http://localhost:5000";
+export const ServerUrl = "https://exam-io.onrender.com";
 
 const App = () => {
   const dispatch = useDispatch();
