@@ -17,7 +17,7 @@ const PORT = process.env.PORT;
 
 app.post("/api/credits/webhook", express.raw({ type: "application/json" }), stripeWebhook);
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "exam-io-orcin.vercel.app",
   credentials: true
 }))
 app.use(express.json());
